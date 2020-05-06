@@ -1,1 +1,233 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .bg-image {
+            background-image: url("https://www.ufcquechoisir-dordogne.org/wp-content/uploads/2018/07/actualites.jpg");
+            filter: blur(2px);
+            -webkit-filter: blur(2px);
+            height: 60vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .bg-text {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        p.lead {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+        
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            ;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: #000;
+            ;
+        }
+        
+        button:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+        
+        #sticky-footer {
+            flex-shrink: none;
+        }
+    </style>
+    <title>Microsoft</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+        <h1 style="font-size:30px">
+            Microsoft dévoile un plan d'investissement cloud et numérique d'un milliard de dollars en Pologne
+        </h1>
+    </div>
+
+    <main class="container mt-4">
+        <div class="row">
+            <div class="col-md-9">
+              <div class="mt-1 mb-2">
+                    <img src="https://cloudcomputing-news.net/wp-content/uploads/sites/2/2020/03/iStock-471179856_K4xE54T.jpg" class="img-fluid" alt="Image">
+              </div>
+                <p>
+                  Lorsqu'un hyperscaler va, un autre doit suivre. Microsoft a annoncé un plan de transformation numérique et cloud d'un milliard de dollars pour la Pologne - près de neuf mois après l'ouverture par Google de ses installations dans le pays.
+                </p>
+                <p style="font-size: smaller;">
+                  L'initiative de Microsoft comprend le lancement d'une nouvelle région de centre de données en Pologne, ainsi qu'un accord avec Chmura Krajowa - littéralement `` cloud national '' - pour `` fournir une expertise en transformation numérique et un large accès aux solutions cloud dans toutes les industries et entreprises en Pologne '', selon les mots de l'entreprise.  
+                </p>
+                <p>
+                Le projet est présenté comme la «vallée numérique polonaise», avec l'accord de partenariat visant à soutenir les institutions publiques et les entreprises du pays, du gouvernement à la santé en passant par l'éducation, etc. Mark Loughran, directeur général de Microsoft Pologne, a déclaré que le pays "a la possibilité d'être le cœur numérique de l'Europe".
+                </p>
+              <p>
+              Parallèlement, Microsoft cherche à former jusqu'à 150000 employés et professionnels de l'informatique, ainsi que des enseignants et des étudiants, sur diverses technologies, du cloud computing aux mégadonnées, en passant par l'IoT, l'IA et l'apprentissage automatique.
+              </p>
+              
+                <p>
+              «Il s'agit d'une autre étape importante sur la voie de la numérisation et de l'accélération du développement de l'ensemble de l'économie polonaise», a déclaré Zbigniew Jagiello, fondateur de Chmura Krajowa. «Une étape particulière face aux changements irréversibles qui se produisent sous nos yeux dans l'écosystème socio-économique.
+                </p>
+                <p>
+                  «La transformation numérique est une excellente occasion de faire face à la crise actuelle plus rapidement et plus efficacement. La technologie cloud est l'avenir que nous voulons poursuivre aujourd'hui », a ajouté Jagiello.
+                </p>
+              
+              <p>
+                <a href="https://cloud.google.com/blog/products/infrastructure/accelerating-cloud-adoption-in-poland-with-key-partnership-and-a-new-cloud-region">En septembre 2019</a>, Google Cloud a annoncé le lancement d'un partenariat avec le fournisseur national polonais de cloud, dans le cadre duquel ce dernier allait devenir revendeur de services Google Cloud en Pologne et développer des capacités de services gérés. Il existe des similitudes marquées avec l'initiative de Microsoft, de la construction d'une région de centre de données à la formation des travailleurs de la région pour les aider à devenir plus prêts pour le cloud.
+              </p>
+              <p class="mb-2">
+                Microsoft a déclaré que la croissance d'Azure était en hausse de 59% sur un an en termes de résultats publiés la semaine dernière, avec l'analyste de l'industrie Synergy Research disant qu'il détenait 18% du marché global de l'infrastructure cloud.
+              </p>
+              <p>
+                
+              </p>
+                <hr>
+                <h4><u>Quelques notes</u> :</h4>
+                <p class="mb-5">
+                    * <strong style="color: #000;">Microsoft</strong> 
+                  est une multinationale informatique et micro-informatique américaine, fondée en 1975 par Bill Gates et Paul Allen.
+              </p>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h4 class="font-weight-bold"><strong>D'AUTRES ARTICLES</strong></h4>
+                <hr class="title-hr mb-2">
+
+                <!--Carousel Wrapper-->
+                <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <a href="https://salma-mindy.github.io/actualit-0/">
+                                <div class="view">
+                                    <img class="d-block w-100" src="https://snyk.io/wp-content/uploads/JavaScript-Report-Feature-.png" alt="First slide">
+                                    <div class="mask rgba-black-light"></div>
+                                </div>
+                                <div class="carousel-caption">
+                                    <h5 class="h3-responsive font-weight-bold">State of Javascript frameworks</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <!--Mask color-->
+                            <a href="https://salma-mindy.github.io/actuality-1/">
+                                <div class="view">
+                                    <img class="d-block w-100" src="https://cdn.i.haymarketmedia.asia/?n=campaign-asia%2Fcontent%2Fshutterstock_535255936.jpg&h=570&w=855&q=100&v=20170226&c=1" alt="Second slide">
+                                    <div class="mask rgba-black-light"></div>
+                                </div>
+                                <div class="carousel-caption">
+                                    <h5 class="h3-responsive font-weight-bold">Alibaba Cloud</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/.Slides-->
+
+                    <!--Controls-->
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <!--/.Controls-->
+                </div>
+                <!--/.Carousel Wrapper-->
+
+                <h4 class="font-weight-bold mt-4"><strong>AUTEUR</strong></h4>
+                <hr class="red title-hr mb-2">
+                <div class="card">
+                    <img src="https://media-exp1.licdn.com/dms/image/C5603AQEdHvhwankOnQ/profile-displayphoto-shrink_100_100/0?e=1593043200&v=beta&t=f7VLwOg26e_O4D5XnM2Q0AOxmt40Me4jV6xXEgm0jqo" alt="John" style="width:100%">
+                    <h3 class="mt-2">Sheila Melissa</h3>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.linkedin.com/in/anoa-sheila-melissa-aka-96a859162"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100007165728234"><i class="fa fa-facebook"></i></a>
+                    </div>
+                    <p><button>contacter</button></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small style="cursor: pointer;color: antiquewhite;">Copyright &copy; <span style="font-weight: 900;">Sheila Melissa</span></small>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
